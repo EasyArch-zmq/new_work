@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.new_work.mapper.ClassroomMapper">
+    <delete id="exitclass" parameterType="Classroom">
+        delete from classroom where classroom_id=#{classroom_id}
+    </delete>
+
+</mapper>
